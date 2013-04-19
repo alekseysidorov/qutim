@@ -59,6 +59,9 @@ HEADERS += \
     presence_p.h
 #    contactlistmimedata.h \
 
+CONFIG += link_pkgconfig
+PKGCONFIG += TelepathyQt5
+
 INCLUDEPATH += /usr/include/telepathy-qt5
 LIBS += -ltelepathy-qt5
 
